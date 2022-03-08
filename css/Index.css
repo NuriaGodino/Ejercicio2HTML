@@ -1,8 +1,10 @@
 header{
     height: 250px;
-    width: 960px;
+    width: 60%;
     margin: 0 auto;
     background-color: rgba(158, 85, 226, 0.5);
+    min-height: 250px;
+    min-width: 400px;
 }
 
 h1{
@@ -15,6 +17,7 @@ h2, h3, h4{
 }
 
 .letrasCabecera{
+    width: 800px;
     color: white;
     position: relative;
     top: -170px;
@@ -36,13 +39,12 @@ a{
 }
 
 section, footer{
-    width: 960px;
+    width: 60%;
     margin: 0 auto;
-
 }
-h4{
-    float: right;
-    margin-right: 20.9%;
+
+p{
+    text-align: justify;
 }
 
 .descripcion{
@@ -56,14 +58,12 @@ h4{
 h3{
     margin-bottom: 25px;
 }
-
-p{
-    text-align: justify;
-}
-
+    
 section{
     background-color: rgb(255, 243, 227);
     margin-top: -17px;
+    min-height: 400px;
+    min-width: 400px;
 }
 
 .libros:hover{
@@ -78,3 +78,51 @@ section{
     background-color: rgb(104, 255, 205);
 }
 
+section h3{
+    text-shadow: 2px 1px 1px rgba(158, 85, 226, 0.5);
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+        width: 98%;
+    }
+
+    .letrasCabecera{
+        width: 650px; 
+    }
+    
+    section{
+        width: 98%
+    }
+
+    h3{
+        position: relative;
+        top: 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header{
+        width: 98%;
+    }
+
+    section{
+        width: 98%;
+    }
+
+    .descripcion{
+        display: contents;
+    }
+
+    .letrasCabecera{
+        max-width: 400px;
+        width: 400px;
+        font-size: x-small;
+    }
+
+    .navegacion{
+        height: 30px;
+        position: relative;
+        top: -79px;
+    } 
+} 
