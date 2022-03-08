@@ -1,4 +1,3 @@
-
 header{
     height: 250px;
     width: 960px;
@@ -55,6 +54,23 @@ td{
     border-color: rgba(158, 85, 226, 0.5);
 }
 
+.libros:hover{
+    background-color: rgb(104, 255, 205);
+}
+
+.registrate:hover{  
+    background-color: rgb(104, 255, 205);
+}
+
+.contacto:hover{
+    background-color: rgb(104, 255, 205);
+}
+
+.inicio:hover{
+    background-color: rgb(104, 255, 205);
+}
+
+
 @media screen and (max-width: 1000px) {
     header{
         width: 98%;
@@ -79,7 +95,7 @@ td{
     }
 
     .letrasCabecera{
-        max-width: 400px;
+
         width: 400px;
         font-size: x-small;
     }
