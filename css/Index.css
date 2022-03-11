@@ -1,3 +1,5 @@
+
+
 header{
     height: 250px;
     width: 960px;
@@ -17,11 +19,12 @@ h2, h3, h4{
 }
 
 .letrasCabecera{
-    width: 800px;
+    width: 700px;
     color: white;
     position: relative;
     top: -170px;
     left: 201px;
+
 }
 
 .navegacion{
@@ -56,6 +59,7 @@ p{
 }
 
 h3{
+    margin-top: 45px;
     margin-bottom: 25px;
 }
     
@@ -92,7 +96,7 @@ section h3{
     }
 
     .letrasCabecera{
-        width: 650px; 
+        width: 500px; 
     }
     
     section{

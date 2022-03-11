@@ -45,13 +45,29 @@ form{
     margin-top: -17px;
 }
 
+.libros:hover{
+    background-color: rgb(104, 255, 205);
+}
+
+.registrate:hover{  
+    background-color: rgb(104, 255, 205);
+}
+
+.contacto:hover{
+    background-color: rgb(104, 255, 205);
+}
+
+.inicio:hover{
+    background-color: rgb(104, 255, 205);
+}
+
 @media screen and (max-width: 1000px) {
     header{
         width: 98%;
     }
 
     .letrasCabecera{
-        width: 650px; 
+        width: 500px; 
     }
     
     .formulario{
